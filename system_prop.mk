@@ -21,3 +21,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Netflix
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.netflix.bsp_rev=Q7250-19133-1
+
+# RIL
+PRODUCT_PRODUCTY_OVERRIDES += \
+    ro.telephony.default_network=33,22
+
