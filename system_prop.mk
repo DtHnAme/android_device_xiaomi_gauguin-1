@@ -26,3 +26,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PRODUCTY_OVERRIDES += \
     ro.telephony.default_network=33,22
 
+# Mipush 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.miui.version.code_time=1551369600 \
+    ro.miui.ui.version.code=10 \
+    ro.miui.ui.version.name=V12
+
