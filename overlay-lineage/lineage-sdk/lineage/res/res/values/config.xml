@@ -79,7 +79,7 @@
     <bool name="config_haveHigherAspectRatioScreen">true</bool>
 
     <!-- Whether device has a notch -->
-    <bool name="config_haveNotch">true</bool>
+    <bool name="config_haveNotch">false</bool>
      
     <!-- The list of vendor package signatures that should also be considered
          platform signatures, specifically for use on devices with a vendor partition. -->
