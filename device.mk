@@ -131,7 +131,8 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.2-service.gauguin
+    android.hardware.power@1.2-service.gauguin \
+    android.hardware.power.stats@1.0-service
 
 # Properties
 -include $(LOCAL_PATH)/system_prop.mk
